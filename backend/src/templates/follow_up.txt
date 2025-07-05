@@ -1,0 +1,15 @@
+
+Subject: Following up on {original_subject}
+
+Hi {name},
+
+I wanted to follow up on my previous email regarding {topic}.
+
+{follow_up_message}
+
+I understand you're busy, but I believe this could be valuable for {company}.
+
+Would you have 10 minutes this week for a quick call?
+
+Best regards,
+{sender_name}

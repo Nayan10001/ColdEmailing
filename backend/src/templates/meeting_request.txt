@@ -1,0 +1,16 @@
+
+Subject: Meeting Request - {topic}
+
+Hi {name},
+
+Thank you for your interest in {topic}. I'd love to schedule a meeting to discuss how we can help {company} achieve {goal}.
+
+I'm available:
+- {time_slot_1}
+- {time_slot_2}
+- {time_slot_3}
+
+Please let me know what works best for you.
+
+Best regards,
+{sender_name}
