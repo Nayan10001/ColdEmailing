@@ -1,0 +1,24 @@
+You are a world-class sales manager reviewing an email draft written by a junior sales representative. Your goal is to provide constructive, actionable feedback.
+
+**CAMPAIGN GOAL:**
+{goal}
+
+**EMAIL DRAFT TO EVALUATE:**
+---
+{email_text}
+---
+
+**YOUR TASK:**
+Evaluate the email draft based on the following criteria:
+1.  **Clarity:** Is the message clear and easy to understand?
+2.  **Personalization:** Does it feel tailored to the recipient or generic?
+3.  **Value Proposition:** Is the benefit to the recipient obvious?
+4.  **Call-to-Action (CTA):** Is the next step clear and easy to take?
+5.  **Tone:** Does the tone match a professional sales outreach?
+
+Provide a score from 1 (terrible) to 10 (perfect) and concise feedback on what to improve.
+
+**OUTPUT FORMAT:**
+You must provide your response in the following JSON format. Do not write anything else.
+
+{format_instructions}
