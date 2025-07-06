@@ -9,12 +9,16 @@ import {
   Settings,
   FileText,
   CheckCircle,
+  Send,
+  Activity,
 } from 'lucide-react';
 
 const menuItems = [
   { id: 'dashboard', label: 'Dashboard', icon: BarChart3, path: '/' },
   { id: 'leads', label: 'Lead Manager', icon: Users, path: '/leads' },
-  { id: 'templates', label: 'Email Templates', icon: Mail, path: '/templates' },
+  { id: 'campaigns', label: 'Campaigns', icon: Send, path: '/campaigns' },
+  { id: 'logs', label: 'Email Logs', icon: Activity, path: '/logs' },
+  { id: 'templates', label: 'Templates', icon: Mail, path: '/templates' },
   { id: 'setup', label: 'Setup Guide', icon: Settings, path: '/setup' },
   { id: 'script', label: 'Python Script', icon: FileText, path: '/script' },
 ];
@@ -42,8 +46,8 @@ const Sidebar: React.FC = () => {
           </div>
           {sidebarOpen && (
             <div>
-              <h1 className="text-lg font-bold">Smark Solutions</h1>
-              <p className="text-sm text-slate-400">Cold Email Automation System</p>
+              <h1 className="text-lg font-bold">Cold Email Pro</h1>
+              <p className="text-sm text-slate-400">AI-Powered Automation</p>
             </div>
           )}
         </div>
@@ -85,7 +89,7 @@ const Sidebar: React.FC = () => {
               <span className="text-white">0</span>
             </div>
             <div className="flex justify-between text-sm">
-              <span className="text-slate-400">Templates</span>
+              <span className="text-slate-400">Campaigns</span>
               <span className="text-white">2</span>
             </div>
             <div className="flex justify-between text-sm">
